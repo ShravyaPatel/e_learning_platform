@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ course.course_name }} - E-learning Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>{{ course.course_name }}</h2>
+        <p>{{ course.course_description }}</p>
+        <p>Instructor: {{ course.instructor }}</p>
+        <a href="{{ url_for('my_courses') }}">Back to My Courses</a> | <a href="{{ url_for('logout') }}">Logout</a>
+    </div>
+</body>
+</html>

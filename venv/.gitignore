@@ -1,0 +1,13 @@
+# PyCharm files
+.idea/
+*.iml
+
+# Virtual environment
+venv/
+
+# Compiled Python files
+*.pyc
+
+# OS or IDE-specific files
+.DS_Store
+
